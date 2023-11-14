@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleM.css">
+  <title>Pantalla Principal</title>
+</head>
+<body>
+  <header class="top-menu">
+    <div class="logo">
+      <img src="/img/Guardianes.jpeg" alt="Logo de la plataforma">
+    </div>
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Novedades</a></li>
+        <li><a href="#">Series</a></li>
+        <li><a href="#">Películas</a></li>
+        <li><a href="#">Favoritos</a></li>
+      </ul>
+    </nav>
+    <form class="search-form" action="#" method="get">
+      <input type="text" name="search" placeholder="Buscar...">
+      <button type="submit">Buscar</button>
+    </form>
+    <a href="login.html" class="logout">Cerrar Sesión</a>
+  </header>
+
+  <main class="content">
+    <div class="movie-grid">
+
+      <a href="ficha.html" class="movie-item">
+        <img src="img/stranger.jpeg" alt="Película 1">
+        <div class="movie-info">
+          <h3>Título de la Película 1</h3>
+          <p>Calificación: <span class="rating">4.5</span></p>
+          <p>Año: 2022</p>
+          <p>Sinopsis resumida...</p>
+        </div>
+      </a>
+
+      <a href="fichaOpen.html" class="movie-item">
+        <img src="img/open.jpg" alt="Película 2">
+        <div class="movie-info">
+          <h3>Título de la Película 2</h3>
+          <p>Calificación: <span class="rating">3.8</span></p>
+          <p>Año: 2020</p>
+          <p>Sinopsis resumida...</p>
+        </div>
+      </a>
+
+    </div>
+  </main>
+</body>
+</html>
